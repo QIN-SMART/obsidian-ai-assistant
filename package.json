@@ -1,0 +1,27 @@
+{
+  "name": "obsidian-ai-assistant",
+  "version": "1.0.0",
+  "description": "An AI assistant plugin for Obsidian that integrates with Ollama and OpenAI APIs.",
+  "main": "main.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "node build/main.js"
+  },
+  "keywords": [
+    "obsidian",
+    "plugin",
+    "ai",
+    "ollama",
+    "openai"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.3",
+    "ts-loader": "^9.2.6"
+  }
+}

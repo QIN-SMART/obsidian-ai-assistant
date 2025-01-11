@@ -1,0 +1,29 @@
+{
+  "id": "obsidian-ai-assistant",
+  "name": "Obsidian AI Assistant",
+  "version": "1.0.0",
+  "description": "An AI assistant plugin for Obsidian that integrates with Ollama and OpenAI APIs.",
+  "author": "Your Name",
+  "main": "main.ts",
+  "minAppVersion": "0.12.0",
+  "permissions": {
+    "read": true,
+    "write": true,
+    "append": true
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/obsidian-ai-assistant.git"
+  },
+  "keywords": [
+    "obsidian",
+    "plugin",
+    "ai",
+    "assistant"
+  ],
+  "license": "MIT"
+}

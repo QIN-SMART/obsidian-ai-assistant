@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2023-10-01",
+  "compatibility": {
+    "obsidian": "0.12.0",
+    "minVersion": "0.11.0"
+  },
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2023-10-01",
+      "changes": [
+        "初始版本发布",
+        "集成Ollama和OpenAI API",
+        "实现聊天界面和设置界面"
+      ]
+    }
+  ]
+}
